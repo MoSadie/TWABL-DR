@@ -11,7 +11,7 @@ layout: titled_page
 <table><tr><th>Date</th><th>TL;DR</th><th>Bungie.net post</th></tr>
 
 {% for post in site.posts %}
-    <tr><td>{{ post.date }} </td><td> [TL;DR]({{ post.url }}) </td><td> [Full TWAB]({{ post.bungie_url }}) </td></tr>
+    <tr><td>{{ post.date | date: "%B %e %Y" }} </td><td> <a href="{{ post.url }}">TL;DR</a> </td><td> <a href="{{ post.bungie_url }}">Full TWAB</a> </td></tr>
 {% endfor %}
 
 </table>
