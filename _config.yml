@@ -1,0 +1,5 @@
+theme: jekyll-theme-cayman
+title: "TWABL;DR"
+description: "TWAB Long; Didn't Read"
+show_downloads: false
+exclude: [tldr-template.md]
