@@ -4,6 +4,10 @@ description: "TWAB Long; Didn't Read"
 layout: titled_page
 ---
 
+## Latest post: {{ site.posts.first.title }}
+
+{{ site.posts.first.content }}
+
 
 
 ## All TL;DRs in chronological order
