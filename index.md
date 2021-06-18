@@ -5,12 +5,11 @@ layout: titled_page
 ---
 
 {% assign tldr_cat = site.categories | find: "category", "tldr" %}
+{% assign latest_tldr = tldr_cat.first[1].first %}
 
-{{ tldr_cat.first[1].first | inspect }}
+## Latest TL;DR: {{ latest_tldr.title }}
 
-## Latest TL;DR: {{ tldr_cat.first[1].first.title }}
-
-{{ tldr_cat.first[1].first.content }}
+{{ latest_tldr.content }}
 
 
 ## All TL;DRs in chronological order
