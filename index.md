@@ -4,10 +4,11 @@ description: "TWAB Long; Didn't Read"
 layout: titled_page
 ---
 
-## Latest post: {{ site.posts.first.title }}
+{% assign tldr_cat = site.categories | find: "category", "tldr"}
 
-{{ site.posts.first.content }}
+## Latest TL;DR: {{ tldr_cat[1].title }}
 
+{{ tldr_cat[1].content }}
 
 
 ## All TL;DRs in chronological order
