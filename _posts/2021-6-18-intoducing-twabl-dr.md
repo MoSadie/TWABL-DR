@@ -2,7 +2,7 @@
 title: "Introducing TWABL;DR"
 description: "aka TWAB Long; Didn't Read"
 date: 2021-06-18
-layout: titled_page
+layout: post
 ---
 
 Hello world!
