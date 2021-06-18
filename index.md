@@ -14,7 +14,10 @@ layout: titled_page
 
 <table><tr><th>Date</th><th>TL;DR</th><th>Bungie.net post</th></tr>
 
-{% for post in site.posts | where: "category", "tldr" %}
+{% for post in site.posts %}
+    {% if post.category != "tldr" %}
+        {% continue %}
+    {% endif %}
     <tr><td> {{ post.date | date_to_string: "ordinal", "US" }} </td><td> <a href="{{ post.url | relative_url }}">TL;DR</a> </td><td> <a href="{{ post.bungie_url }}">Full TWAB</a> </td></tr>
 {% endfor %}
 
@@ -24,7 +27,10 @@ layout: titled_page
 
 <table><tr><th>Date</th><th>Post</th></tr>
 
-{% for post in site.posts | where_exp: "item", "item.category != 'tldr'" %}
+{% for post in site.posts %}
+    {% if post.category == "tldr" %}
+        {% continue %}
+    {% endif %}
     <tr><td> {{ post.date | date_to_string: "ordinal", "US" }}</td><td><a href="{{ post.url | relative_url }}">{{ post.title }}</a></td></tr>
 {% endfor %}
 </table>
