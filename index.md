@@ -4,7 +4,7 @@ description: "TWAB Long; Didn't Read"
 layout: titled_page
 ---
 
-{% assign tldr_cat = site.categories | where "tldr" | first }
+{% assign tldr_cat = site.categories | where "tldr" | first %}
 ## Most recent TL;DR: {{ tldr_cat.first.title }}
 
 {{ tldr_cat.first.content }}
