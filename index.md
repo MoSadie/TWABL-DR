@@ -16,9 +16,9 @@ layout: titled_page
 | Date | TL;DR | Bungie.net post |
 | ---- | ----- | --------------- |
 {% for post in site.posts %}
-    {% if post.category == "tldr" %}
-        | {{ post.date }} | [TL;DR]({{ post.url }}) | [Full TWAB]({{ post.bungie_url }}) |
-    {% endif %}
+    
+        | {{ post.date }} | [TL;DR]({{ post.url }}) {{ post.category}} | [Full TWAB]({{ post.bungie_url }}) |
+    
 {% endfor %}
 
 ## Why?
