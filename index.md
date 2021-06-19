@@ -20,7 +20,7 @@ layout: titled_page
     {% if post.category != "tldr" %}
         {% continue %}
     {% endif %}
-    <tr><td> {{ post.date | date_to_string: "ordinal", "US" }} </td><td> <a href="{{ post.url | relative_url }}">TL;DR</a> </td><td> <a href="{{ post.bungie_url }}">Full TWAB</a> </td></tr>
+    <tr><td> {{ post.date | date_to_string: "ordinal", "US" }} </td><td> <a href="{{ post.url | relative_url }}">TL;DR</a> </td><td> <a href="{{ post.bungie_url }}">{{ post.title }}</a> </td></tr>
 {% endfor %}
 
 </table>
