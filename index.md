@@ -37,6 +37,10 @@ layout: titled_page
 {% endfor %}
 </table>
 
+## What?
+
+These are summaries of blog posts from the video game developer Bungie. This site mainly focuses on the weekly `This Week at Bungie` series, but other blog posts are summarized when desired. There summaries are targed towards Destiny 2 players who are familar with the game. I will do my best to put spoiler tags on any major reveals that happen in a given week, but I would always recommend being caught up on any weekly story quests before reading a TL;DR or TWAB.
+
 ## Why?
 
-I write these for my clan every week and post them in our Discord, figured others would want a TL;DR as well.
+I write these for my clan every week and post them in our Discord, figured others would want a TL;DR as well. This is also a chance for me to learn more about GitHub Pages and Jekyll.
