@@ -1,0 +1,88 @@
+---
+title: "Destiny 2 Update 3.2.1"
+description: "The one about shotguns."
+category: "tldr"
+tags: ["patch notes"]
+date: 2021-7-6
+layout: post
+bungie_url: "https://www.bungie.net/en/Explore/Detail/News/50448"
+---
+TL;DR:
+- Crucible:
+  - Fixed an issue where Glory gain and loss amounts were not properly adjusted based on skill level.
+  - Fixed an issue preventikng the Dead Cliffs map from loading correctly in Glory playlists.
+  - Reduced Trace Rifle damage in Momentum Control.
+- Expunge:
+  - Styx & Tartarus: Fixed a Codestrider platform failing to have collision in certain circumstances.
+  - Tartarus: Fixed an issue where defeating the boss before the second immunity phase would block mission completion.
+- Strikes:
+  - The Arms Dealer: Fixed an issue in the Legion's Anchor area where a Phalanx would sometimes teleport into the middle of the encounter area, after dunking the first carry object.
+  - The Inverted Spire: Fixed an issue where players who died in the drill area having their Ghosts appear far back in the strike.
+- Raids:
+  - Vault of Glass:
+    - Fixed an issue where players were still able to purchase Vault Caches after unlocking everything from it.
+    - Fixed an issue where the Atheon Cache required Warlocks to have the chest armor unlocked to obtain the head armor.
+    - Fixed an issue where the Ahteon Cache required Titans to have the chest armor unlocked to obtain the class item.
+    - Fixed an issue where players could get out of the environment at the beginning of the raid.
+    - Fixed an issue where players could spawn in undesirable locations when joining in progress before the Oracles encounter.
+    - Fixed an issue where bounties did not progress when killing combatants.
+    - Fixed an issue where Grenade Launchers did lower than intended damage to Oracles.
+    - Fixed an issue where players could live through a detain by simply doing their favorite dance.
+  - Deep Stone Crypt:
+    - Fixed some crashes when entering airlocks.
+    - Fixed an issue where Ghosts would spawn in unreachable areas when joining in progress, wiping the fireteam.
+    - Fixed an issue where Taniks could be damaged before starting the final encounter.
+- UI/UX:
+  - Crucible Activity Intro: Fixed a bug that may cause graphical corruption of the UI during the intro sequence.
+  - Quest Tab:
+    - Players without the Season Pass will now have the Splicer Gauntlet removed after completing Path of the Splicer I.
+    - Season of the Chosen quests/hammer now appear in the Past section.
+- Gameplay:
+  - Armor:
+    - Boots of the Assembler's Noble Seekers now correctly proc Benevolent Dawn for Blessing of the Sky.
+    - Reverted the Boots of the Assembler change to Rift recharge rate.
+    - Felwinter's Helm will no longer change all Solstice armor glows to Stasis.
+    - Created universal ornaments for previous Solstice of Heroes 2018/2019 glows.
+  - Weapons: Reissued Moon (Lectern) and Dreaming City (world drops) weapons with new perk pools.
+  - Weapon Archetypes:
+    - Shotguns:
+      - Increased Agressive Frame Shotgun cone angle from 4.0 to 4.25 degrees.
+      - Reduced Shotgun damage falloff min by 2 meters.
+      - Increased Shotgun damage falloff max by 2 meters.
+    - Aggressive (120 RPM) Hand Cannons:
+      - Reduced precision damage multiplier from 1.8 to 1.6, preventing a 10% damage bonus from 2-tapping in PvP.
+      - Reduced aim assist minimum falloff distance by 1-2m depending on the Range stat.
+      - Reduced damage minimum falloff distance by 1m (this gives them a 1m advantage over other Hand Cannons).
+  - Perks:
+    - Pulse Monitor: Fixed an issue where the Handling bonus was not applying.
+    - Rewind Rounds: Fixed the perk not triggering if the last shot in the mag missed, or if the player reloaded another weapon.
+    - Reservior Burst: Updated with same consistency and speed fix as Dragonfly.
+  - Exotics 
+    - Dead Man's Tale 
+      - Removed hipfire damage falloff scalar (was 1.8x to match zoom). 
+      - Reduced Aim Assist cone angle hip scalar from 1.5 to 1.2. 
+    - Sleeper Simulant 
+      - Fixed an issue where Sleeper Simulant was benefiting less than other Linear Fusion Rifles from the Season 14 Linear Fusion Rifle precision damage buff. 
+    - Vex Mythoclast 
+      - Updated intrinsic perk description to describe the functionality.
+- General:
+  - Fixed an issue causing Null Composure to not be Masterworked when pulled from Collections.
+  - Fixed an issue where Cryothesia 77k's charged shot could misfire if fired near the end of the charge buff.
+  - Temporarily removed Legendary weapons that did not have Masterwork slots from Banshee-44's inventory. (Full fix for Season 15.)
+- Abilities, Aspects, and Fragments:
+  - Fixed a bug in which Slow duration from Withering Blade did not increase with Whisper of Durance Fragment equipped.
+  - Fixed a bug in which Stormcaller Warlocks were unable to use Ionic Blink while slowed by Stasis.
+  - Fixed a bug in which Diamond Lance could be generated by throwing a Glacier Grenade into a pile of Telesto projectiles.
+  - Fixed an issue where many abilities were not properly costing Sentinel Shield energy when guarding.
+- Investment:
+  - Bounties and Pursuits:
+    - Adjusted Cosmodrome, EDZ, Nessus, Moon, and Dreaming City Destination Public Event Bounties so Heroic public events grant the most progress.
+    - Entropic Shards can now be detroyed by any Stasis damage. (Exception: The original nine still require Salvation's Grip)
+  - Stat Trackers:
+    - Fixed the Expunge Fastest Completion stat tracker to update on the fastest time, not every time.
+- Platforms and Systems:
+  - PC:
+    - PC performance optimizations for AMD RX series GPUs.
+    - Fixed a crash for Intel Integrated Graphics systems.
+  - PlayStation 5:
+    - Fixed a bug in content verification that caused Beagle errors and required a reinstall to fix.
