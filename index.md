@@ -39,7 +39,7 @@ layout: titled_page
 
 ## What?
 
-These are summaries of blog posts from the video game developer Bungie. This site mainly focuses on the weekly `This Week at Bungie` series, but other blog posts are summarized when desired. There summaries are targed towards Destiny 2 players who are familar with the game. I will do my best to put spoiler tags on any major reveals that happen in a given week, but I would always recommend being caught up on any weekly story quests before reading a TL;DR or TWAB.
+These are summaries of blog posts from the video game developer Bungie. This site mainly focuses on the weekly `This Week at Bungie`/`This Week in Destiny` series, but other blog posts are summarized when desired. There summaries are targeted towards Destiny 2 players who are familiar with the game. I will do my best to put spoiler tags on any major reveals that happen in a given week, but I would always recommend being caught up on any weekly story quests before reading a TL;DR or TWAB/TWID.
 
 ## Why?
 
