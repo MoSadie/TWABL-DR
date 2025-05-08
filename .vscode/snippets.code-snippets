@@ -18,7 +18,7 @@
 
 	"Insert YouTube Embed": {
 		"scope": "markdown",
-		"prefix": "youtube",
+		"prefix": ["youtube"],
 		"body": "{% include youtube.html id=\"${1:$CLIPBOARD}\" %}"
 	},
 
@@ -36,8 +36,8 @@
 
 	"Insert Copied Image": {
 		"scope": "markdown",
-		"prefix": "image",
-		"body": "![$1]($CLIPBOARD)"
+		"prefix": ["image"],
+		"body": "![${1:Alt}]($CLIPBOARD)"
 	},
 
 	"Insert Post Header": {
@@ -53,8 +53,10 @@
 			"layout: post",
 			"bungie_url: \"$CLIPBOARD\"",
 			"---",
+			"",
 			"TL;DR:",
-			"- This week at Bungie, $0"
+			"",
+			"## $0"
 		]
 	}
 }
