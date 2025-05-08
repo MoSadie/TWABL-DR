@@ -7,5 +7,7 @@ date: YEAR-MONTH-DAY
 layout: post
 bungie_url: "https://www.bungie.net/"
 ---
+
 TL;DR:
-- This week at Bungie,
+
+## 
