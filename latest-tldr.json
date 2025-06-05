@@ -1,0 +1,7 @@
+---
+layout: null
+---
+{% assign tldr_cat = site.categories | find: "category", "tldr" %}
+{% assign latest_tldr = tldr_cat.first[1].first %}
+
+{{ latest_tldr | jsonify }}
