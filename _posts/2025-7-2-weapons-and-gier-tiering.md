@@ -1,6 +1,6 @@
 ---
 title: "Dev Insights - Weapons and Gear Tiering"
-description: ""
+description: "Weapons are evolving"
 category: "tldr"
 tags: []
 date: 2025-07-02
