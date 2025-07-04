@@ -19,7 +19,7 @@
 	"Insert YouTube Embed": {
 		"scope": "markdown",
 		"prefix": ["youtube"],
-		"body": "{% include youtube.html id=\"${1:$CLIPBOARD}\" %}"
+		"body": "{% include youtube.html id=\"${1:${CLIPBOARD/(?:https?:\\/\\/(?:youtu\\.be\\/|(?:www\\.)?youtube\\.com\\/watch\\?v=))?([\\w-]{11}).*/$1/}}\" %}"
 	},
 
 	"Mark Spoilers": {
