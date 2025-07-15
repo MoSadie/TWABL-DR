@@ -7,6 +7,12 @@ layout: titled_page
 {% assign tldr_cat = site.categories | find: "category", "tldr" %}
 {% assign latest_tldr = tldr_cat.first[1].first %}
 
+## Search Across All TL;DRs
+
+<script async src="https://cse.google.com/cse.js?cx=33c406256fbe74597">
+</script>
+<div class="gcse-search" enableAutoComplete="false"></div>
+
 # Latest TL;DR: {{ latest_tldr.title }}
 
 {{ latest_tldr.content }}
