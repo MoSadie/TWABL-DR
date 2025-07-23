@@ -10,7 +10,7 @@ layout: titled_page
 ## Search Across All TL;DRs
 
 <div class="header-search">
-  <form class="header-search-form" action="/search/" method="get">
+  <form class="header-search-form" action="/search" method="get">
     <input type="text" id="search-box" placeholder="Search..." name="query">
     <input type="submit" value="Search">
   </form>
