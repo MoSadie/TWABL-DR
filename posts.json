@@ -1,0 +1,9 @@
+---
+layout: null
+---
+[
+{% for post in site.posts %}
+    {{ post | xml-escape | jsonify | strip_html | replace: "\n", " " | strip_newlines | normalize_whitespace }}
+    {% unless forloop.last %},{% endunless %}
+{% endfor %}
+]

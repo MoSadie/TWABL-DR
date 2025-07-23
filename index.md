@@ -9,9 +9,12 @@ layout: titled_page
 
 ## Search Across All TL;DRs
 
-<script async src="https://cse.google.com/cse.js?cx=33c406256fbe74597">
-</script>
-<div class="gcse-search" enableAutoComplete="false"></div>
+<div class="header-search">
+  <form class="header-search-form" action="/search/" method="get">
+    <input type="text" id="search-box" placeholder="Search..." name="query">
+    <input type="submit" value="Search">
+  </form>
+</div>
 
 # Latest TL;DR: {{ latest_tldr.title }}
 
