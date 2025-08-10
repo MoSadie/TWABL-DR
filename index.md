@@ -18,7 +18,9 @@ layout: titled_page
 
 # Latest TL;DR: {{ latest_tldr.title }}
 
+<div id="post-content">
 {{ latest_tldr.content }}
+</div>
 
 
 # All TL;DRs
@@ -53,3 +55,10 @@ These are summaries of announcements from [Bungie](https://bungie.net). This sit
 ## Why?
 
 I write these for my clan every week and post them in our Discord, figured others would want a TL;DR as well. Discord has a small character limit so I made it a website instead. This is also a chance for me to learn more about GitHub Pages and Jekyll.
+
+
+<script src="/js/header-links.js"></script>
+
+<script>
+  updateHeaders("post-content", "{{ site.url }}{{ latest_tldr.url }}");
+</script>
