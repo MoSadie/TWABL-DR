@@ -34,6 +34,12 @@
 		"body": "[${1:$TM_SELECTED_TEXT}]({% post_url ${2:POST} %})"
 	},
 
+	"Original TWID": {
+		"scope": "markdown",
+		"prefix": "original twid",
+		"body": "[Original TWID]({{ page.bungie_url }})"
+	},
+
 	"Insert Copied Image": {
 		"scope": "markdown",
 		"prefix": ["image"],
